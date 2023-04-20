@@ -114,6 +114,13 @@ h1,h2,h3,h4,h5,h6, p {
   cursor: pointer;
   outline: none;
 }
+
+.task-input-container button:hover {
+  box-shadow: 1px 1px 3px  rgba(22, 22, 22, 0.452);
+  color: #525252;
+  transition: all 0.1s;
+}
+
 .image-input-label {
   cursor: pointer;
 }
@@ -361,6 +368,7 @@ input:focus, textarea:focus {
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
 .modal .button.primary {
   color: #fff;
   background-color: #00db9a;
